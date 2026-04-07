@@ -5,4 +5,4 @@ build:
     NODE_ENV: production
 
 run:
-  web: node --no-warnings --experimental-global-webcrypto index.j
+  web: node --no-warnings --experimental-global-webcrypto index.js
