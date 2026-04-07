@@ -12,7 +12,7 @@ const patchedSource = botSource.replace(
     'createRequire(import.meta.url'
 );
 
-const tmpBot = path.join(__dirname, '.bot_run.js');
+const tmpBot = path.join(__dirname, '.bot_run.jS');
 fs.writeFileSync(tmpBot, patchedSource);
 
 await import(tmpBot);
